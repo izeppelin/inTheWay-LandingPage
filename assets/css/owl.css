@@ -1,11 +1,4 @@
-/**
- * Owl Carousel v2.3.4
- * Copyright 2013-2018 David Deutsch
- * Licensed under: SEE LICENSE IN https://github.com/OwlCarousel2/OwlCarousel2/blob/master/LICENSE
- */
-/*
- *  Owl Carousel - Core
- */
+/*  Owl Carousel - Core */
 .owl-carousel {
   display: none;
   width: 100%;
@@ -130,9 +123,9 @@
  */
 .owl-carousel .owl-item {
   /**
-			This is introduced due to a bug in IE11 where lazy loading combined with autoheight plugin causes a wrong
-			calculation of the height of the owl-item that breaks page layouts
-		 */ }
+			Introduced due to a bug in IE11 Reason: autoheight, wrong of height, cause bugs in the layout
+		 */ 
+    }
   .owl-carousel .owl-item .owl-lazy {
     opacity: 0;
     transition: opacity 400ms ease; }

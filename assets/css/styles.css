@@ -178,7 +178,7 @@ body {
 .section-heading h6 {
   font-size: 15px;
   font-weight: 700;
-  color: #4da6e7;
+  color: #1c679c;
   text-transform: uppercase;
   margin-bottom: 15px;
 }
@@ -210,7 +210,7 @@ body {
   border-radius: 23px;
   font-weight: 500 !important;
   letter-spacing: 0.3px !important;
-  transition: all .5s;
+  transition: all .5s;  
 }
 
 .border-first-button a:hover {
@@ -265,13 +265,13 @@ header
 
 .pre-header ul.social-media li a {
   background-color: #afafaf;
-  color: #fff;
+  color: rgb(255, 255, 255);
   display: inline-block;
   width: 30px;
   height: 30px;
   line-height: 30px;
   text-align: center;
-  border-radius: 50%;
+  border-radius: 40%;
   font-size: 14px;
   transition: all .3s;
 }
@@ -939,7 +939,7 @@ Banner Style
 }
 
 .main-banner .right-image img {
-  max-width: 593px;
+  max-width: 270px;
 }
 
 
